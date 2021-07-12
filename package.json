@@ -5,7 +5,6 @@
   "main": "app.js",
   "scripts": {
     "dev": "parcel ./src/index.pug --open",
-    "start": "parcel ./src/index.pug --open",
     "build": "parcel build ./src/index.pug"
   },
   "author": "",
