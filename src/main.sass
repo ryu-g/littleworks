@@ -1,0 +1,107 @@
+h1
+  text-align: center
+a
+  text-decoration: none
+  &::visited
+    color: black
+h3
+  margin-top: 0px
+#me
+  display: flex
+  justify-content: center
+  align-items: center
+  &::before
+    border-radius: 50%
+    border: 2px solid #98d9e3
+    content: ""
+    display: inline-block
+    background-size: contain
+    background-repeat: no-repeat
+    width: 40px
+    height: 40px
+    background-image: url('./me.jpg')
+
+section
+  width: 1000px
+  margin: 20px auto
+  word-wrap: break-word
+
+.aboutMe
+  width: 860px
+  padding: 20px
+
+.work
+  margin: 70px 0
+  width: 100%
+  display: grid
+  grid-template-columns: 450px 550px
+  grid-gap: 20px
+
+.thumbnail
+  display: block
+  height: 250px
+  position: relative
+  &::after, &::before
+    position: absolute
+  &::before
+    display: block
+    content: ''
+    left: 0
+    top: 0
+    bottom: 0
+    width: 20px
+    border-top: 1px solid #000
+    border-left: 1px solid #000
+    border-bottom: 1px solid #000
+  &::after
+    display: block
+    content: ''
+    right: 0
+    top: 0
+    bottom: 0
+    width: 20px
+    border-top: 1px solid #000
+    border-right: 1px solid #000
+    border-bottom: 1px solid #000
+
+img
+  box-sizing: content-box
+  object-fit: cover
+  height: 250px
+  width: 450px
+  display: block
+  // position: absolute
+  // background-image: linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 8px)
+  // background-size: 8px 1px
+  // background-position: left bottom
+  // background-repeat: repeat-x
+
+
+.context
+  margin: 0
+  display: block
+  width: 550px
+
+.logo
+  font-size: 12px
+  padding: 5px 10px
+  color: #fff
+  border-radius: 5px
+  background-color: green
+  font-weight: bold
+
+.music
+  font-size: 12px
+  padding: 5px 10px
+  color: #fff
+  border-radius: 5px
+  background-color: orange
+  font-weight: bold
+
+.dev
+  font-size: 12px
+  padding: 5px 10px
+  color: #fff
+  border-radius: 5px
+  background-color: purple
+  font-weight: bold

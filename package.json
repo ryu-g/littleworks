@@ -1,0 +1,11 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "parcel ./src/index.pug --open"
+  },
+  "author": "",
+  "license": "ISC"
+}
