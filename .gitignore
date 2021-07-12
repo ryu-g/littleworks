@@ -1,6 +1,6 @@
 */.DS_Store
 ./node_modules
-
+./dist
 # Created by https://www.toptal.com/developers/gitignore/api/node
 # Edit at https://www.toptal.com/developers/gitignore?templates=node
 
