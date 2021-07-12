@@ -5,8 +5,11 @@
   "main": "app.js",
   "scripts": {
     "dev": "parcel ./src/index.pug --open",
-    "build": "parcel build ./src/index.pug"
+    "build": "parcel ./src/index.pug"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
 }
