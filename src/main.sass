@@ -1,11 +1,17 @@
 h1
   text-align: center
+  display: block
+  width: 100%
 a
   text-decoration: none
   &::visited
     color: black
 h3
   margin-top: 0px
+body
+  margin: 0
+  width: 100%
+
 #me
   display: flex
   justify-content: center
@@ -25,17 +31,26 @@ section
   width: 1000px
   margin: 20px auto
   word-wrap: break-word
+  @media (max-width: 960px)
+    width: 450px
 
 .aboutMe
   width: 860px
   padding: 20px
+  margin: 0 auto
+  @media (max-width: 960px)
+    width: 450px
 
 .work
-  margin: 70px 0
+  margin: 70px auto
   width: 100%
+  padding: 20px
   display: grid
   grid-template-columns: 450px 550px
   grid-gap: 20px
+  @media (max-width: 960px)
+    width: 450px
+    grid-template-columns: 1fr
 
 .thumbnail
   display: block
@@ -70,17 +85,14 @@ img
   height: 250px
   width: 450px
   display: block
-  // position: absolute
-  // background-image: linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 8px)
-  // background-size: 8px 1px
-  // background-position: left bottom
-  // background-repeat: repeat-x
 
 
 .context
   margin: 0
   display: block
   width: 550px
+  @media (max-width: 960px)
+    width: 450px
 
 .logo
   font-size: 12px
