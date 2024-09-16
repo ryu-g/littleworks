@@ -4,32 +4,25 @@ html(lang="en")
     meta(charset="UTF-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    meta(property="og:url" content="https://ryu-g-portfolio-day.netlify.app/")
-    meta(property="og:title" content="#PortfolioDay!")
-    meta(property="og:description" content="ryu-gのミニ作品展")
+    meta(property="og:url" content="https://ryu-g-content.netlify.app/")
+    meta(property="og:description" content="つくったやつ")
     meta(property="og:site_name" content="ryu-g works mini")
     meta(property="og:image" content="https://pbs.twimg.com/media/E6JWTVCUUAE97So.jpg")
     meta(name="twitter:card" content="summary_large_image")
-    meta(name="twitter:title" content="#PortfolioDay!")
-    meta(name="twitter:description" content="ryu-gのミニ作品展")
+    meta(name="twitter:description" content="つくったやつ")
     meta(name="twitter:image" content="https://pbs.twimg.com/media/E6JWTVCUUAE97So.jpg")
 
     title ryu-g works mini
   body
-    h1 #PortfolioDay 2021🎉
     section.aboutMe
       h3#me
         a(href = 'https://twitter.com/a3y53') わたし(@a3y53)について
-      p 北海道の情報系大学を「学費無いわ」という理由で中退後、1年ほど函館で遊んだ後に友人の運転手にハイエースを操縦させて関東に移住してきました。
-      | その後1年弱フリーのデザイナーとしてフラフラしたのち、物好きな（慈悲深き）会社に抜かれて飯を食ってます。
-      p 今は、illustratorを使ってデザインをしたり、VSCodeでjavascriptを使ってコードを書いたり、AfterEffectsやPremire Proを使って動画の編集をしたりしています。
-      | 趣味ではGaragebandで楽曲を作ったり、illustratorの練習を兼ねて「存在しないコンテンツ」を想定したロゴを制作する遊びをしています。<br>
-      | 仕事中にゲームの構想を思いついたので、スキあらばサボってjavascriptで開発するのがここのところの癒やしです。<br>こういうお祭りのときはたま〜〜〜〜〜にwebフロントを書きます。でもめんどくさくスマホ対応はしませんでした！ごめんなさい！<br><br>
-      | 最近遊んでいるゲームは「アサルトリリィ LastBullet」です。
-      a(href="https://www.amazon.co.jp/gp/video/detail/B08KG2BL29/ref=atv_dp_share_cu_r" target="_blank") アサルトリリィ
-      | 面白いのいでみんなアニメ見て。そして感想を教えて。
-      p
-        a(href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false") Tweet
+      p オタクです
+      p 曲やロゴを作る(倒置法)
+
+      //- p
+      //-   a(href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false") Tweet
+
     section.logos
       .work
         .thumbnail
@@ -72,7 +65,7 @@ html(lang="en")
           span.logo logo
           p 家庭に蔓延る蟻のことごとくを家ごと確実に焼却してくれる！
           p 主婦の味方！アリ駆除専門のバーニング・アントのロゴを制作させていただきました！燃やして解決！
-          p 
+          p という架空のサービス
             a(href = "https://twitter.com/a3y53/status/1153325474229059584?s=20" target="_blank") https://twitter.com/a3y53/status/1153325474229059584?s=20
       .work
         .thumbnail
@@ -129,12 +122,43 @@ html(lang="en")
         .thumbnail
           img(src="./hogehoge.png", alt="")
         .context
-          h3 おまけ(サービス名は秘密です)
+          h3 おまけ(サービス名は秘密)
           span.logo logo
           p goolge meetが複数人数での通話に時間制限をかけちゃったため、友人がマッハで通話サービスを作ってくれました。
           p なので、マッハでそれにあてたロゴマークです。
           p 珍しく保存していたメイキングは
             a(href = "https://twitter.com/a3y53/status/1411973100481089536?s=20" target="_blank") こちら
+      .work
+        .thumbnail
+          img(src="./parasomnia-x.png", alt="")
+        .context
+          h3 PARASOMNIA - パラソムニア ロゴ
+          span.logo logo
+          p リハビリに手書きしまくった草案の中にあった意匠の一つをもとに作成
+          p 手書き段階で何を考えながら作ったのかは覚えてないが、パラソムニアは夢遊病という意味らしい
+        .thumbnail
+          img(src="./parasomnia-x-making.png", alt="")
+        
+      .work
+        .thumbnail
+          img(src="./bb.png", alt="")
+        .context
+          h3 機動部隊BB ロゴ
+          span.logo logo
+          p パラソムニア同様、リハビリに手書きしまくった草案の中にあった意匠の一つをもとに作成
+          p これは存在しないシナリオまでまで想像しながら作って楽しかった
+          details
+            summary 落書きあらすじ
+            p かつて、宙外種 - スペースベノム との大戦争が起きた際の激戦区に派遣された機動部隊第133小隊が、人類の平和と引き換えにその消息を絶ってから32年、事は憲兵の連続行方不明事件に端を発する。
+            p 行方不明とされていた兵士たちは｢なにか｣に侵された状態で制御不能な反乱兵と化し、人々を蹂躙し始める。
+            p 兵士たちを変えたのは、根絶されたと思われていた宙外種 - スペースベノム であった。それらは死に絶えておらず、平和にあぐらをかいた人類に逆襲すべく機会を伺っていたのだった。
+            p 優秀な人間の脳を喰らい、肉体を乗っ取り、成長することで人類を脅かす宙外種 - スペースベノム の侵攻に際し、平和な時代で育ったものたちには打つ手が無く、戦う力のあるものたちは宙外種 - スペースベノム に侵食され、市民は混乱の最中になすすべもなく捕食され、権力者は我先に逃亡。国家は急速に機能不全に陥り、数少ない戦力である憲兵団も壊滅間際の有り様となった。
+            p 混乱の中、生き残ったひとりの憲兵のもとに、｢BB｣を名乗る数人の老人たちが現れる。
+            
+          a(href = "https://x.com/a3y53/status/1832765603892822135" target="_blank") https://x.com/a3y53/status/1832765603892822135
+          
+
+
     section.musics
       .work
         iframe(width="450" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/735348007&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true")
@@ -153,9 +177,30 @@ html(lang="en")
         .context
           h3 AELIA
           span.music MUSIC
-          p konamiのsound voltexの the 10th KACに応募した楽曲です。(落選)
+          p the 10th KONAMI Arcade Championship (KAC) に応募した楽曲(落選)
           p 9thで落選したrememberで用いたフレーズを基軸に再構築しました。
-          p ジャケットおよび名前はAELIAのものを借りて使いました。
+          p ジャケットおよび名前はAELIAのものを使用。
+      .work
+        iframe(width="450" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1410854248&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true")
+          div(style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;")
+            a(href="https://soundcloud.com/em-ryu-g/aelia" title="ryu-g" target="_blank" style="color: #cccccc; text-decoration: none;") ryu-g JUKE BOX 
+        .context
+          h3 JUKE BOX 
+          span.music MUSIC
+          span.illust イラスト
+          p 友人が始めた、身内用のラジオ番組のOPテーマ曲として制作･提供
+          p 今では一番お気に入りの曲のひとつ。かわいい系
+      .work
+        iframe(width="450" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1606583013&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true")
+          div(style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;")
+            a(href="https://soundcloud.com/em-ryu-g/aelia" title="ryu-g" target="_blank" style="color: #cccccc; text-decoration: none;") ryu-g ultrasonic  
+        .context
+          h3 ultrasonic 
+          span.music MUSIC
+          p KACに再挑戦しようと思い作り始めて、完成まで1年半以上こねくり回す羽目になり、ついぞ公募に出さなかった作品
+          p お気に入りの曲のひとつ。騒がしい系
+          p これの制作過程でvitalというシンセサイザー(無料で使える!)を覚えられてよかった
+    
     section.devs
       .work
         .thumbnail
@@ -163,14 +208,12 @@ html(lang="en")
         .context
           h3 PlainPlane - jsでゲームを作りたい
           span.dev GAME
-          p 飛行機を操作して対戦するゲームを作ろうとしています。
-          p 今はカカシを倒すサンプル状態で公開されています。
-          p Q・Wで武装を強化！！
+          p 飛行機を操作して対戦するゲームを作ろうとしてた(2021年)
+          p 今はカカシを倒すサンプル状態で公開されています。PC推奨
+          p Q・Wで武装を強化できるよ
           p
             a(href ='https://plain-plane.netlify.app/' target="_blank") PLAY : https://plain-plane.netlify.app/ 
-          p 
-            a(href="https://github.com/ryu-g/PlainPlane" target="_blank") github : https://github.com/ryu-g/PlainPlane
 
 
-  script(src = './app.js') 
-  script(async src="https://platform.twitter.com/widgets.js" charset="utf-8")
+script(src = './app.js' type ='module')  
+script(async src="https://platform.twitter.com/widgets.js" charset="utf-8")
