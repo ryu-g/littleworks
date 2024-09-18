@@ -15,11 +15,16 @@ html(lang="en")
     title ryu-g works mini
   body
     section.aboutMe
-      h3#me
-        a(href = 'https://twitter.com/a3y53') わたし(@a3y53)について
-      p オタクです
-      p 曲やロゴを作る(倒置法)
-
+      h3
+        a#me(href = 'https://twitter.com/a3y53')
+      p オタクです。曲やロゴを作る(倒置法)
+      p 制作したもののうち気が向いたものを乗せて一覧で楽しめるようにします。ポケットの中みたいな感じ
+      h4 更新履歴
+      p 2024.9.19 : 音楽が追加されました
+      p 2024.9.17 : ロゴ･音楽が追加されました
+      details 
+        summary 過去の更新
+        | 2021.6.13 portofolioday 公開
       //- p
       //-   a(href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false") Tweet
 
@@ -132,7 +137,7 @@ html(lang="en")
         .thumbnail
           img(src="./parasomnia-x.png", alt="")
         .context
-          h3.flag-icon PARASOMNIA - パラソムニア ロゴ
+          h3.flag-icon-a PARASOMNIA - パラソムニア ロゴ
           span.logo logo
           p リハビリに手書きしまくった草案の中にあった意匠の一つをもとに作成
           p 手書き段階で何を考えながら作ったのかは覚えてないが、パラソムニアは夢遊病という意味らしい
@@ -143,7 +148,7 @@ html(lang="en")
         .thumbnail
           img(src="./bb.png", alt="")
         .context
-          h3.flag-icon 機動部隊BB ロゴ
+          h3.flag-icon-a 機動部隊BB ロゴ
           span.logo logo
           p パラソムニア同様、リハビリに手書きしまくった草案の中にあった意匠の一つをもとに作成
           p これは存在しないシナリオまでまで想像しながら作って楽しかった
@@ -188,7 +193,7 @@ html(lang="en")
           div(style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;")
             a(href="https://soundcloud.com/em-ryu-g/aelia" title="ryu-g" target="_blank" style="color: #cccccc; text-decoration: none;") ryu-g JUKE BOX 
         .context
-          h3.flag-icon JUKE BOX 
+          h3.flag-icon-a JUKE BOX 
           span.music MUSIC
           span.attention ⚠音が鳴ります:音量注意
           p 友人が始めた、身内用のラジオ番組のOPテーマ曲として制作･提供
@@ -198,13 +203,26 @@ html(lang="en")
           div(style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;")
             a(href="https://soundcloud.com/em-ryu-g/aelia" title="ryu-g" target="_blank" style="color: #cccccc; text-decoration: none;") ryu-g ultrasonic  
         .context
-          h3.flag-icon ultrasonic 
+          h3.flag-icon-a ultrasonic 
           span.music MUSIC
           span.attention ⚠音が鳴ります:音量注意
           span.illust illust
           p KACに再挑戦しようと思い作り始めて、完成まで1年半以上こねくり回す羽目になり、ついぞ公募に出さなかった作品
           p お気に入りの曲のひとつ。騒がしい系
           p これの制作過程でvitalというシンセサイザー(無料で使える!)を覚えられてよかった
+    
+      .work
+        <iframe width="450" height="250" src="https://www.youtube.com/embed/YRtCPXYq8lY?si=893KvS0PzFhOnepC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        .context
+          h3.flag-icon-b tick tack star 
+          span.music MUSIC
+          span.attention ⚠音が鳴ります:音量注意
+          span.illust illust
+          span.movie MOVIE
+          p 落ち着いた曲として作ったやつ
+          p vitalのシンセで潜水艦のソナーみたいな音使ってみたいなって思ってそれ基準で作った
+          p 絵はphotoshopで描いた 意外ときれいに出来て誇らしいので見て(強欲)
+          p 公開自体は2022年だけど不思議とコアなファンがついてる ありがとね
     
     section.devs
       .work
