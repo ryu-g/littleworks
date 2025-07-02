@@ -97,7 +97,7 @@ img
   &::before
     color: red
     font-size: 12px
-    content: "new : 2025.6.05"
+    content: "new : 2025.7.03"
     padding-left: 20px
     display: block
     height: 18px
@@ -108,7 +108,7 @@ img
   &::before
     color: red
     font-size: 12px
-    content: "new : 2024.9.19"
+    content: "new : 2025.6.05"
     padding-left: 20px
     display: block
     height: 18px
@@ -154,3 +154,13 @@ span
   background-color: #e6e6e6
   border-radius: 20px
   margin-bottom: 100px
+  transition: all 0.3s ease
+  &:hover
+    animation: shake 0.1s infinite alternate
+    background-color: #d0d0d0
+
+@keyframes shake
+  0%
+    transform: translateX(-2px) translateY(-1px) rotate(-0.5deg)
+  100%
+    transform: translateX(2px) translateY(1px) rotate(0.5deg)
